@@ -1,0 +1,14 @@
+1. Install Kubectl
+	1. Goto https://chocolatey.org/install
+	2. Run command from the site onn Powershell in admin mode
+        3. Run > choco install kubernetes-cli on command prompt in admin mode
+	4. Run > kubectl version --client to verify installation
+	5. Run > cd %USERPROFILE%
+	6. RUN > mkdir .kube
+	7. Create a file called config inside the .kube folder
+
+2. Install minikube
+	1. Goto https://www.virtualbox.org/wiki/Downloads and install Virtual Box
+	2. Run > choco install minikube on command prompt in admin mode
+	3. Run > minikube start --driver=docker on command prompt
+	4. Run > minikube status to confirm installation
