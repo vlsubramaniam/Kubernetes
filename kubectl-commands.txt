@@ -1,0 +1,19 @@
+Create a Deployment
+======================
+kubectl create deployment --image=<image name>
+Eg:
+kubectl create deployment --image=<subvl/first-app-k8>
+
+List all Deployments
+======================
+kubectl get deployments
+
+List all Pods
+======================
+kubectl get pods
+
+Exposing a Deployment with a Service
+=========================================
+kubectl expose deployment <deployment name> --type=LoadBalancer --port=8080
+Eg:
+kubectl expose deployment --type=LoadBalancer --port=8080
